@@ -1,2 +1,2 @@
-# Face-Recognition-
+# Face-Recognition
 Face Recognition using CNN
