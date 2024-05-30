@@ -16,10 +16,6 @@ This project uses a Convolutional Neural Network (CNN) model to implement a face
 - numpy
 - matplotlib
 
-## Data Preprocessing
-
-- The images are loaded, resized, and normalized to prepare them for training.
-
 ## Model Architecture
 
 The CNN model consists of several convolutional layers. The final layer uses softmax activation for face recognition.
