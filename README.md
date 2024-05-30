@@ -1,8 +1,6 @@
 # Face-Recognition
 Face Recognition using CNN
 
-# Face Mask Detection
-
 ## Overview
 
 This project uses a Convolutional Neural Network (CNN) model to implement a face recognition system.
@@ -24,7 +22,7 @@ This project uses a Convolutional Neural Network (CNN) model to implement a face
 
 ## Model Architecture
 
-The CNN model consists of several convolutional layers followed by max-pooling layers. The final layer uses softmax activation for face recognition.
+The CNN model consists of several convolutional layers. The final layer uses softmax activation for face recognition.
 
 ## Data Augmentation
 
@@ -32,7 +30,7 @@ Data augmentation techniques enhance the model's generalization by applying rand
 
 ## Training
 
-The model is trained using the training dataset with the Adam optimizer and categorical_crossentropy loss. Callbacks such as ModelCheckpoint, ReduceLROnPlateau, and EarlyStopping are used to monitor and improve training performance.
+The model is trained using the training dataset with the Adam optimizer and sparse_categorical_crossentropy loss. Callbacks such as ModelCheckpoint, ReduceLROnPlateau, and EarlyStopping are used to monitor and improve training performance.
 
 ## Real-time
 
