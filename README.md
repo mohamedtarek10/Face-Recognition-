@@ -32,7 +32,7 @@ The model is trained using the training dataset with the Adam optimizer and spar
 
 ## Haar Cascade Classifier
 
-The Haar Cascade classifier is employed for real-time face detection. The classifier is pre-trained and included in the OpenCV library.
+The Haar Cascade classifier is employed for real-time face recognition. The classifier is pre-trained and included in the OpenCV library.
 
 The system is tested on a video file or cam (replace `video_path` with the path to your video or 0 for Camera) by capturing frames and applying face recognition in real time.
 
