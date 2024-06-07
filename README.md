@@ -18,7 +18,7 @@ This project uses a Convolutional Neural Network (CNN) model to implement a face
 
 ## Model Architecture
 
-The CNN model consists of several convolutional layers. The final layer uses softmax activation for face recognition.
+The CNN model used is VGG16 Architecture. The final layer uses softmax activation for face recognition u.
 
 ## Data Augmentation
 
@@ -34,6 +34,6 @@ The model is trained using the training dataset with the Adam optimizer and spar
 
 The Haar Cascade classifier is employed for real-time face recognition. The classifier is pre-trained and included in the OpenCV library.
 
-The system is tested on a video file or cam (replace `video_path` with the path to your video or 0 for Camera) by capturing frames and applying face recognition in real time.
+The system is tested on a video file or cam (replace `video_path` with the path to your video or 0 for Camera) by capturing frames and applying face recognition in real-time.
 
 
