@@ -1,4 +1,4 @@
-# Face-Recognition
+# Face-Recognition System for Attendance 
 Face Recognition using CNN
 
 ## Overview
